@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 640px;
+}
+
+.imgBackground {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.imgBack {
+    width: 1350px;
+    height: 640px;
+}
+
+.heading {
+    position: absolute;
+    color: rgb(248, 0, 0);
+    text-align: center;
+    top: 30px;
+    left: 400px;
+    margin-left: 1em;
+}
+
+.animalInput {
+    position: absolute;
+    top: 50px;
+}
+
+.ape {
+    position: absolute;
+    top: 405px;
+    left: 412px;
+    width: 50px;
+    font-size: 1em;
+}
+
+.tiger {
+    position: absolute;
+    top: 437px;
+    left: 536px;
+    width: 50px;
+    font-size: 1em;
+}
+
+.giraffe {
+    position: absolute;
+    top: 248px;
+    left: 33px;
+    width: 50px;
+    font-size: 1em;
+}
+
+.coconut {
+    position: absolute;
+    top: 180px;
+    left: 611px;
+    width: 50px;
+    font-size: 1em;
+}
+
+.submit {
+    position: absolute;
+    top: 30px;
+    left: 341px;
+    width: 130px;
+    font-size: 1em;
+    height: 50px;
+}
